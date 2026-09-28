@@ -1,0 +1,14 @@
+{
+  "name": "showtime",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A calmer way to keep time.",
+  "scripts": {
+    "start": "http-server . -a 0.0.0.0 -p 3000 -c-1",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "http-server": "^14.1.1"
+  }
+}
